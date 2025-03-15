@@ -22,7 +22,7 @@ const getCache = ({ name, pattern }: any) => ({
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/paint-board',
+  base: '/',
   optimizeDeps: {
     esbuildOptions: { supported: { bigint: true } }
   },
